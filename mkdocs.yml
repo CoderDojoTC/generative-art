@@ -5,10 +5,9 @@ nav:
     - Introduction: 01-intro.md
     - Products: 02-products.md
     - Concepts: 03-concepts.md
-    - Promt Design: 04-prompts.py
+    - Promt Design: 04-prompts.md
     - Bias: 05-bias.md
     - Fine Tuning: 06-fine-tuning.md
-
     - Whats Next: 08-whats-next.md
   - Activities:
     - Introduction: activities/01-intro.md
