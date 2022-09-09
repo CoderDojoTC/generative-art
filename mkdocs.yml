@@ -1,0 +1,44 @@
+site_name: 'Cybersecurity for Kids'
+nav:
+  - CoderDojo Mentor Resources: https://coderdojotc.github.io/CoderDojoTC/
+  - Cybersecurity for Kids:
+    - Introduction: 01-intro.md
+    - Concepts: 02-concepts.md
+    - Threats: 03-threats.md
+    - Solutions: 04-solutions.md
+    - Careers: 05-careers.md
+  - Activities:
+    - Introduction: activities/01-intro.md
+    - ROT13 Game: activities/02-rot13-game.md
+    - Network Scavenger Hunt: activities/03-network-scavenger-hunt.md
+  - Glossary: glossary.md
+  - References: references.md
+  - Contacts: contact.md
+
+site_description: 'Cybersecurity for Kids: Creative Commons licensed content for CoderDojo programs.'
+site_author: 'Dan McCreary'
+repo_name: 'GitHub Repo'
+repo_url: 'https://github.com/CoderDojoTC/cybersecurity-for-kids'
+edit_uri: 'blob/master/docs'
+theme:
+  name: material
+  logo: img/coderdojo-logo.png
+  palette:
+    primary: '#642580'
+    accent: '#41BAC1'
+  feature:
+    tabs: true
+  custom_dir: 'theme'
+  include_sidebar: true
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - codehilite:
+      linenums: true
+plugins:
+    - search
+markdown_extensions:
+  - codehilite:
+      linenums: true
