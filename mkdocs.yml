@@ -3,15 +3,16 @@ nav:
   - CoderDojo Mentor Resources: https://coderdojotc.github.io/CoderDojoTC/
   - Course Content:
     - Introduction: 01-intro.md
-    - Concepts: 02-concepts.md
-    - Promts: 03-prompts.py
-    - Bias: 03-bias.md
-    - Fine Tuning: 
-    - Products: 04-products.md
-    - Whats Next: 05-whats-next.md
+    - Products: 02-products.md
+    - Concepts: 03-concepts.md
+    - Promt Design: 04-prompts.py
+    - Bias: 05-bias.md
+    - Fine Tuning: 06-fine-tuning.md
+
+    - Whats Next: 08-whats-next.md
   - Activities:
     - Introduction: activities/01-intro.md
-    - Dall E 2: activities/02-dalle2.md
+    - Dall-E 2: activities/02-dalle2.md
     - Midjourney: activities/03-midjournet.md
   - Glossary: glossary.md
   - References: references.md
