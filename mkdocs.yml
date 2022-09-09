@@ -1,7 +1,7 @@
 site_name: 'Generative Art'
 nav:
   - CoderDojo Mentor Resources: https://coderdojotc.github.io/CoderDojoTC/
-  - Courese Content:
+  - Course Content:
     - Introduction: 01-intro.md
     - Concepts: 02-concepts.md
     - Promts: 03-prompts.py
@@ -15,7 +15,7 @@ nav:
     - Midjourney: activities/03-midjournet.md
   - Glossary: glossary.md
   - References: references.md
-  - Contacts: contact.md
+  - Contacts: contacts.md
 
 site_description: 'Generative Art: Creative Commons licensed content for CoderDojo Twin Cities programs.'
 site_author: 'Dan McCreary, Arun Batchu'
