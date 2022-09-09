@@ -11,7 +11,7 @@ It is based on the 175B paramerter GPT-3 model.
 
 MidJourney is a mature commercial text-to-image system that has many command-line options for changing the size of the images generated.
 
-[Midjourney](http://midjourney.com)
+[MidJourney.com](http://midjourney.com)
 
 MidJourny uses a Discord system where the user types ```/imagnine``` to a bot followed by a prompt.
 
@@ -21,9 +21,14 @@ Stable Diffusion is a state-of-the-art text-to-image model that generates images
 [HuggingFace Stable Diffusion](http://huggingface.co/spaces/stabilityai/stable-diffusion)
 Typical wait times are over five minutes.
 
+![](./img/sd-sleepy-cat-in-grass.png)
+
 ## Craiyon
 
 An ad-supported text-to-image generation tool with rendering times around one minute.
 
-[Craiyon.com](http://craiyon)
+[Craiyon.com](http://craiyon.com)
+
+Craiyon does well on abstract art, but does not render faces well.
+![](./img/craiyon_162727_A_happy_African_girl_at_her_computer_.png)
 

@@ -76,7 +76,7 @@ Prompts that desire a specific style can add the suffix such as "in the style of
 
 #### Style Transfer
 
-The process of creating an image in the style of another image
+The process of creating an image in the style of another style, artist, image or type of image.  For example, "A cat in a field in the style of Vincent Van Goh"
 
 #### Stable Diffusion
 

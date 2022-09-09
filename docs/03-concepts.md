@@ -1,9 +1,16 @@
-# Computer Security Concepts
+# Generative Art Concepts
 
-## What is Computer Security?
+## Prompt Engineering
 
-## Types of Computer Security
+## Zero-Shot Learning
 
-### Personal Security
+## Styles
 
-### Server Security
+## Style Transfer
+
+## Challenges
+
+### Faces
+
+### Hands
+
