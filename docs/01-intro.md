@@ -1,16 +1,17 @@
-# Cybersecurity Careers
+# Generative Art
 
-This page will discuss career opportunities in the Computer Security field.
+This site describes the field of generative art: the process of converting narrative text into images.
 
-Sample Computer Security Jobs
+Sample Content
 
-* Application security
-* Data loss prevention
-* Forensics
-* Incident response
-* Network security
-* Security architecture
-* Threat intelligence
-* Vulnerability management
+* What is generative art?
+* Examples of generative art
+* Products that create images from descriptive text
+* Prompt design
+* Concepts
+* Bias
+* Activities
+* Glossary
+* Contacts
 
 Source: [Types of Cyber Security Roles: Job Growth and Career Paths](https://www.snhu.edu/about-us/newsroom/2020/07/cyber-security-roles)

@@ -1,6 +1,7 @@
-# Computer Security References
+# Generative Art Resources
 
-1. [Wikipedia Page on CyberSecurity](https://en.wikipedia.org/wiki/Computer_security)
-1. [Cybersecurity Terminology from Wikipedia](https://en.wikipedia.org/wiki/Computer_security#Terminology)
-1. [Cybersecurity: 7 Ways to Keep Kids Safe Online](https://www2.ed.gov/free/features/cybersecurity.html) - U.S. Department of Education
+1. [Wikipedia Page on Generative Art](https://en.wikipedia.org/wiki/Generative_art)
+2. [Open AI Dall=E 2](https://openai.com/dall-e-2/)
+3. [Hierarchical Text-Conditional Image Generation with CLIP Latents](https://arxiv.org/pdf/2204.06125.pdf)
+
 

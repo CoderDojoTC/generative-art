@@ -1,4 +1,4 @@
-# Cybersecurity for Kids Contacts
+# Generative Art Contacts
 
 ## General Code Savvy Contact
 

@@ -1,24 +1,26 @@
-site_name: 'Cybersecurity for Kids'
+site_name: 'Generative Art'
 nav:
   - CoderDojo Mentor Resources: https://coderdojotc.github.io/CoderDojoTC/
-  - Cybersecurity for Kids:
+  - Courese Content:
     - Introduction: 01-intro.md
     - Concepts: 02-concepts.md
-    - Threats: 03-threats.md
-    - Solutions: 04-solutions.md
-    - Careers: 05-careers.md
+    - Promts: 03-prompts.py
+    - Bias: 03-bias.md
+    - Fine Tuning: 
+    - Products: 04-products.md
+    - Whats Next: 05-whats-next.md
   - Activities:
     - Introduction: activities/01-intro.md
-    - ROT13 Game: activities/02-rot13-game.md
-    - Network Scavenger Hunt: activities/03-network-scavenger-hunt.md
+    - Dall E 2: activities/02-dalle2.md
+    - Midjourney: activities/03-midjournet.md
   - Glossary: glossary.md
   - References: references.md
   - Contacts: contact.md
 
-site_description: 'Cybersecurity for Kids: Creative Commons licensed content for CoderDojo programs.'
-site_author: 'Dan McCreary'
+site_description: 'Generative Art: Creative Commons licensed content for CoderDojo Twin Cities programs.'
+site_author: 'Dan McCreary, Arun Batchu'
 repo_name: 'GitHub Repo'
-repo_url: 'https://github.com/CoderDojoTC/cybersecurity-for-kids'
+repo_url: 'https://github.com/CoderDojoTC/generative-art'
 edit_uri: 'blob/master/docs'
 theme:
   name: material
