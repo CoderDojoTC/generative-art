@@ -13,6 +13,8 @@ nav:
     - Introduction: activities/01-intro.md
     - Dall-E 2: activities/02-dalle2.md
     - Midjourney: activities/03-midjournet.md
+    - Stable Diffusion: activities/04-stable-diffusion.md
+    - Crayion: activities/05-crayion.md
   - Glossary: glossary.md
   - References: references.md
   - Contacts: contacts.md
