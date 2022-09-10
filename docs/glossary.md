@@ -23,7 +23,7 @@ For example, diagrams that need to conform to Optum 2022 color themes would need
 
 The tendency of machine learning models to favor one gender or another for specific occupations or roles.  For example, the BERT large langugae model generates an 83% chance that a "nurse" will be female, but 
 
-### Generative Adversarial Network
+#### Generative Adversarial Network
 
 A neural network architecture used for image generation that uses dueling neural networks to genrate and judge the quality of images.
 

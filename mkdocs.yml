@@ -44,6 +44,3 @@ markdown_extensions:
       linenums: true
 plugins:
     - search
-markdown_extensions:
-  - codehilite:
-      linenums: true

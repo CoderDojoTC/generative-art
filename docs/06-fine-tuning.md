@@ -29,10 +29,12 @@ import torch
 from torch import autocast
 from diffusers import StableDiffusionPipeline
 
+# our new model ID
 model_id = "hakurei/waifu-diffusion"
+# use this only if you have a GPU from NVIDIA
 device = "cuda"
 
-
+# we create a new pipeline with our model id using a 16-bit floating point representation
 pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16, revision='fp16')
 pipe = pipe.to(device)
 

@@ -21,6 +21,8 @@ Stable Diffusion is a state-of-the-art text-to-image model that generates images
 [HuggingFace Stable Diffusion](http://huggingface.co/spaces/stabilityai/stable-diffusion)
 Typical wait times are over five minutes.
 
+Stable Diffusion is the brainchild of Emad Mostaque, a London-based former hedge fund manager whose aim is to bring novel applications of deep learning to the masses through his company, Stability AI.
+
 ![](./img/sd-sleepy-cat-in-grass.png)
 
 ## Craiyon
