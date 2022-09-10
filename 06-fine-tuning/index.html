@@ -648,10 +648,10 @@
 
 
 
-<h1 id="fine-tuning-a-text-to-image-model">Fine Tuning a Text-to-Image Model</h1>
-<h2 id="intro">Intro</h2>
+<h1 id="fine-tuning-a-text-to-image-model">Fine Tuning a Text-to-Image Model<a class="headerlink" href="#fine-tuning-a-text-to-image-model" title="Permanent link">&para;</a></h1>
+<h2 id="intro">Intro<a class="headerlink" href="#intro" title="Permanent link">&para;</a></h2>
 <p>Fine-tuning is the process of adding new layers to an existing model to get it to perform better on a give task.</p>
-<h2 id="steps">Steps</h2>
+<h2 id="steps">Steps<a class="headerlink" href="#steps" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Find an existing model</li>
 </ol>
@@ -667,10 +667,10 @@
 <p>Add new layers to the network and train their weights using these images</p>
 </li>
 </ol>
-<h2 id="waifu-diffusion">Waifu Diffusion</h2>
+<h2 id="waifu-diffusion">Waifu Diffusion<a class="headerlink" href="#waifu-diffusion" title="Permanent link">&para;</a></h2>
 <p>Waifu-diffusion is a latent text-to-image diffusion model that has been conditioned on high-quality anime images through fine-tuning. The image dataset for fine tuning was 56k images chosesen from the <a href="https://danbooru.donmai.us/">Danbooru</a> image database.</p>
 <p><a href="https://huggingface.co/hakurei/waifu-diffusion">Waifu-diffusion</a></p>
-<h2 id="sample-code">Sample Code</h2>
+<h2 id="sample-code">Sample Code<a class="headerlink" href="#sample-code" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
@@ -731,15 +731,19 @@
 <span class="normal">58</span>
 <span class="normal">59</span>
 <span class="normal">60</span>
-<span class="normal">61</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">import</span> <span class="nn">gradio</span> <span class="k">as</span> <span class="nn">gr</span>
+<span class="normal">61</span>
+<span class="normal">62</span>
+<span class="normal">63</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">import</span> <span class="nn">gradio</span> <span class="k">as</span> <span class="nn">gr</span>
 <span class="kn">import</span> <span class="nn">torch</span>
 <span class="kn">from</span> <span class="nn">torch</span> <span class="kn">import</span> <span class="n">autocast</span>
 <span class="kn">from</span> <span class="nn">diffusers</span> <span class="kn">import</span> <span class="n">StableDiffusionPipeline</span>
 
+<span class="c1"># our new model ID</span>
 <span class="n">model_id</span> <span class="o">=</span> <span class="s2">&quot;hakurei/waifu-diffusion&quot;</span>
+<span class="c1"># use this only if you have a GPU from NVIDIA</span>
 <span class="n">device</span> <span class="o">=</span> <span class="s2">&quot;cuda&quot;</span>
 
-
+<span class="c1"># we create a new pipeline with our model id using a 16-bit floating point representation</span>
 <span class="n">pipe</span> <span class="o">=</span> <span class="n">StableDiffusionPipeline</span><span class="o">.</span><span class="n">from_pretrained</span><span class="p">(</span><span class="n">model_id</span><span class="p">,</span> <span class="n">torch_dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">float16</span><span class="p">,</span> <span class="n">revision</span><span class="o">=</span><span class="s1">&#39;fp16&#39;</span><span class="p">)</span>
 <span class="n">pipe</span> <span class="o">=</span> <span class="n">pipe</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
 
