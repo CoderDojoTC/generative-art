@@ -17,7 +17,7 @@
     
     
       
-        <title>Introduction - Generative Art</title>
+        <title>Fine Tuning - Generative Art</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#generative-art" class="md-skip">
+        <a href="#fine-tuning-a-text-to-image-model" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              Fine Tuning
             
           </span>
         </div>
@@ -265,21 +265,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../01-intro/" class="md-nav__link">
         Introduction
       </a>
-      
     </li>
   
 
@@ -345,11 +335,73 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../06-fine-tuning/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Fine Tuning
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Fine Tuning
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#intro" class="md-nav__link">
+    Intro
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#steps" class="md-nav__link">
+    Steps
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#waifu-diffusion" class="md-nav__link">
+    Waifu Diffusion
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sample-code" class="md-nav__link">
+    Sample Code
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -544,6 +596,42 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#intro" class="md-nav__link">
+    Intro
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#steps" class="md-nav__link">
+    Steps
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#waifu-diffusion" class="md-nav__link">
+    Waifu Diffusion
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sample-code" class="md-nav__link">
+    Sample Code
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -554,27 +642,157 @@
             <article class="md-content__inner md-typeset">
               
                 
-  <a href="https://github.com/CoderDojoTC/generative-art/blob/master/docs/01-intro.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/CoderDojoTC/generative-art/blob/master/docs/06-fine-tuning.md" title="Edit this page" class="md-content__button md-icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
 
-<h1 id="generative-art">Generative Art</h1>
-<p>This site describes the field of generative art: the process of converting narrative text into images.</p>
-<p>Sample Content</p>
-<ul>
-<li>What is generative art?</li>
-<li>Examples of generative art</li>
-<li>Products that create images from descriptive text</li>
-<li>Prompt design</li>
-<li>Concepts</li>
-<li>Bias</li>
-<li>Activities</li>
-<li>Glossary</li>
-<li>Contacts</li>
-</ul>
-<p>Source: <a href="https://www.snhu.edu/about-us/newsroom/2020/07/cyber-security-roles">Types of Cyber Security Roles: Job Growth and Career Paths</a></p>
+<h1 id="fine-tuning-a-text-to-image-model">Fine Tuning a Text-to-Image Model</h1>
+<h2 id="intro">Intro</h2>
+<p>Fine-tuning is the process of adding new layers to an existing model to get it to perform better on a give task.</p>
+<h2 id="steps">Steps</h2>
+<ol>
+<li>Find an existing model</li>
+</ol>
+<p><a href="https://huggingface.co/models?pipeline_tag=text-to-image&amp;sort=downloads">HuggingFace Text-to-Image Models</a></p>
+<ol>
+<li>
+<p>Download the model to your local computer</p>
+</li>
+<li>
+<p>Create a set of images you want to use to fine-tune the model</p>
+</li>
+<li>
+<p>Add new layers to the network and train their weights using these images</p>
+</li>
+</ol>
+<h2 id="waifu-diffusion">Waifu Diffusion</h2>
+<p>Waifu-diffusion is a latent text-to-image diffusion model that has been conditioned on high-quality anime images through fine-tuning. The image dataset for fine tuning was 56k images chosesen from the <a href="https://danbooru.donmai.us/">Danbooru</a> image database.</p>
+<p><a href="https://huggingface.co/hakurei/waifu-diffusion">Waifu-diffusion</a></p>
+<h2 id="sample-code">Sample Code</h2>
+<div class="codehilite"><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span>
+<span class="normal">47</span>
+<span class="normal">48</span>
+<span class="normal">49</span>
+<span class="normal">50</span>
+<span class="normal">51</span>
+<span class="normal">52</span>
+<span class="normal">53</span>
+<span class="normal">54</span>
+<span class="normal">55</span>
+<span class="normal">56</span>
+<span class="normal">57</span>
+<span class="normal">58</span>
+<span class="normal">59</span>
+<span class="normal">60</span>
+<span class="normal">61</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">import</span> <span class="nn">gradio</span> <span class="k">as</span> <span class="nn">gr</span>
+<span class="kn">import</span> <span class="nn">torch</span>
+<span class="kn">from</span> <span class="nn">torch</span> <span class="kn">import</span> <span class="n">autocast</span>
+<span class="kn">from</span> <span class="nn">diffusers</span> <span class="kn">import</span> <span class="n">StableDiffusionPipeline</span>
+
+<span class="n">model_id</span> <span class="o">=</span> <span class="s2">&quot;hakurei/waifu-diffusion&quot;</span>
+<span class="n">device</span> <span class="o">=</span> <span class="s2">&quot;cuda&quot;</span>
+
+
+<span class="n">pipe</span> <span class="o">=</span> <span class="n">StableDiffusionPipeline</span><span class="o">.</span><span class="n">from_pretrained</span><span class="p">(</span><span class="n">model_id</span><span class="p">,</span> <span class="n">torch_dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">float16</span><span class="p">,</span> <span class="n">revision</span><span class="o">=</span><span class="s1">&#39;fp16&#39;</span><span class="p">)</span>
+<span class="n">pipe</span> <span class="o">=</span> <span class="n">pipe</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
+
+
+<span class="n">block</span> <span class="o">=</span> <span class="n">gr</span><span class="o">.</span><span class="n">Blocks</span><span class="p">(</span><span class="n">css</span><span class="o">=</span><span class="s2">&quot;.container { max-width: 800px; margin: auto; }&quot;</span><span class="p">)</span>
+
+<span class="n">num_samples</span> <span class="o">=</span> <span class="mi">2</span>
+
+<span class="k">def</span> <span class="nf">infer</span><span class="p">(</span><span class="n">prompt</span><span class="p">):</span>
+    <span class="k">with</span> <span class="n">autocast</span><span class="p">(</span><span class="s2">&quot;cuda&quot;</span><span class="p">):</span>
+        <span class="n">images</span> <span class="o">=</span> <span class="n">pipe</span><span class="p">([</span><span class="n">prompt</span><span class="p">]</span> <span class="o">*</span> <span class="n">num_samples</span><span class="p">,</span> <span class="n">guidance_scale</span><span class="o">=</span><span class="mf">7.5</span><span class="p">)[</span><span class="s2">&quot;sample&quot;</span><span class="p">]</span>
+
+    <span class="k">return</span> <span class="n">images</span>
+
+
+<span class="k">with</span> <span class="n">block</span> <span class="k">as</span> <span class="n">demo</span><span class="p">:</span>
+    <span class="n">gr</span><span class="o">.</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">&quot;&lt;h1&gt;&lt;center&gt;Waifu Diffusion&lt;/center&gt;&lt;/h1&gt;&quot;</span><span class="p">)</span>
+    <span class="n">gr</span><span class="o">.</span><span class="n">Markdown</span><span class="p">(</span>
+        <span class="s2">&quot;waifu-diffusion is a latent text-to-image diffusion model that has been conditioned on high-quality anime images through fine-tuning.&quot;</span>
+    <span class="p">)</span>
+    <span class="k">with</span> <span class="n">gr</span><span class="o">.</span><span class="n">Group</span><span class="p">():</span>
+        <span class="k">with</span> <span class="n">gr</span><span class="o">.</span><span class="n">Box</span><span class="p">():</span>
+            <span class="k">with</span> <span class="n">gr</span><span class="o">.</span><span class="n">Row</span><span class="p">()</span><span class="o">.</span><span class="n">style</span><span class="p">(</span><span class="n">mobile_collapse</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">equal_height</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+
+                <span class="n">text</span> <span class="o">=</span> <span class="n">gr</span><span class="o">.</span><span class="n">Textbox</span><span class="p">(</span>
+                    <span class="n">label</span><span class="o">=</span><span class="s2">&quot;Enter your prompt&quot;</span><span class="p">,</span> <span class="n">show_label</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">max_lines</span><span class="o">=</span><span class="mi">1</span>
+                <span class="p">)</span><span class="o">.</span><span class="n">style</span><span class="p">(</span>
+                    <span class="n">border</span><span class="o">=</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="kc">True</span><span class="p">),</span>
+                    <span class="n">rounded</span><span class="o">=</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">),</span>
+                    <span class="n">container</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                <span class="p">)</span>
+                <span class="n">btn</span> <span class="o">=</span> <span class="n">gr</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="s2">&quot;Run&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">style</span><span class="p">(</span>
+                    <span class="n">margin</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                    <span class="n">rounded</span><span class="o">=</span><span class="p">(</span><span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">),</span>
+                <span class="p">)</span>
+
+        <span class="n">gallery</span> <span class="o">=</span> <span class="n">gr</span><span class="o">.</span><span class="n">Gallery</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s2">&quot;Generated images&quot;</span><span class="p">,</span> <span class="n">show_label</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">style</span><span class="p">(</span>
+            <span class="n">grid</span><span class="o">=</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">height</span><span class="o">=</span><span class="s2">&quot;auto&quot;</span>
+        <span class="p">)</span>
+        <span class="n">text</span><span class="o">.</span><span class="n">submit</span><span class="p">(</span><span class="n">infer</span><span class="p">,</span> <span class="n">inputs</span><span class="o">=</span><span class="p">[</span><span class="n">text</span><span class="p">],</span> <span class="n">outputs</span><span class="o">=</span><span class="n">gallery</span><span class="p">)</span>
+        <span class="n">btn</span><span class="o">.</span><span class="n">click</span><span class="p">(</span><span class="n">infer</span><span class="p">,</span> <span class="n">inputs</span><span class="o">=</span><span class="p">[</span><span class="n">text</span><span class="p">],</span> <span class="n">outputs</span><span class="o">=</span><span class="n">gallery</span><span class="p">)</span>
+
+    <span class="n">gr</span><span class="o">.</span><span class="n">Markdown</span><span class="p">(</span>
+        <span class="sd">&quot;&quot;&quot;___</span>
+<span class="sd">   &lt;p style=&#39;text-align: center&#39;&gt;</span>
+<span class="sd">   Created by https://huggingface.co/hakurei</span>
+<span class="sd">   &lt;br/&gt;</span>
+<span class="sd">   &lt;/p&gt;&quot;&quot;&quot;</span>
+    <span class="p">)</span>
+
+
+<span class="n">demo</span><span class="o">.</span><span class="n">launch</span><span class="p">(</span><span class="n">debug</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
 
 
 
@@ -593,7 +811,7 @@
       <div class="md-footer-nav">
         <nav class="md-footer-nav__inner md-grid">
           
-            <a href=".." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <a href="../05-bias/" title="Bias" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
               <div class="md-flex__cell md-flex__cell--shrink">
                 <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
               </div>
@@ -602,19 +820,19 @@
                   <span class="md-footer-nav__direction">
                     Previous
                   </span>
-                  Home
+                  Bias
                 </span>
               </div>
             </a>
           
           
-            <a href="../02-products/" title="Products" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <a href="../08-whats-next/" title="Whats Next" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
               <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
                 <span class="md-flex__ellipsis">
                   <span class="md-footer-nav__direction">
                     Next
                   </span>
-                  Products
+                  Whats Next
                 </span>
               </div>
               <div class="md-flex__cell md-flex__cell--shrink">
