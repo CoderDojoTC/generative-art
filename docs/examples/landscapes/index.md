@@ -11,3 +11,9 @@
 ![](./landscape-3.webp)
 
 ![](./landscape-4webp)
+
+## Cottages
+
+Stable Diffusion: A cottage with colorful lupine near a stream in the style of Thomas Kinkade.
+
+![](./cottage.png)
