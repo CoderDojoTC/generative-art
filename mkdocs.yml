@@ -6,7 +6,7 @@ nav:
     - Introduction: 01-intro.md
     - Products: 02-products.md
     - Concepts: 03-concepts.md
-    - Promt Design: 04-prompts.md
+    - Prompt Design: 04-prompts.md
     - Bias: 05-bias.md
     - Fine Tuning: 06-fine-tuning.md
     - Whats Next: 08-whats-next.md
@@ -16,6 +16,8 @@ nav:
     - Midjourney: activities/03-midjourney.md
     - Stable Diffusion: activities/04-stable-diffusion.md
     - Crayion: activities/05-crayion.md
+  - Examples:
+    - examples/artists.md
   - Glossary: glossary.md
   - References: references.md
   - Contacts: contacts.md
