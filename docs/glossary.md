@@ -5,10 +5,23 @@ A key that is assigned to a developer to use a specific programming interface.  
 
 Many commercial text-to-image systems require the user to register with a credit card to get an API Key.  Images generated are billed to a credit card each month.
 
+#### BERT
+
+Bidirectional Encoder Representations from Transformers (BERT) is a [transformer](#transformer)-based machine learning technique for [natural language processing] (NLP) pre-training developed by Google.
+
+* See also: [Wikipedia on BERT](https://en.wikipedia.org/wiki/BERT_(language_model))
+
 #### Content
 The information is conveyed by an image.  For example, the mood, the message, or the story.
 
+#### Deep Neural Network
+
+A type of [neural network](#neural-network) with multiple layers between the input and output layers.
+
+See also: [Wikipedia on DNN](https://en.wikipedia.org/wiki/Deep_learning#Deep_neural_networks)
+
 #### Domain
+
 The subject matter or context of an image.  For example, a landscape, a portrait, a still life, or an abstract image.
 
 #### Embedding
@@ -21,7 +34,11 @@ For example, diagrams that need to conform to Optum 2022 color themes would need
 
 #### Gender Bias
 
-The tendency of machine learning models to favor one gender or another for specific occupations or roles.  For example, the BERT large langugae model generates an 83% chance that a "nurse" will be female, but 
+The tendency of machine learning models to favor one gender or another for specific situations.  The most common of these is occupations or roles.  For example, the BERT large language model generates an 83% chance that a "nurse" will be female, but only a 
+
+![](./img/gender-bias-table.png)
+
+* See also: [Showing Bias in BERT](https://dmccreary.medium.com/showing-bias-in-bert-475e98dabf51)
 
 #### Generative Adversarial Network
 
