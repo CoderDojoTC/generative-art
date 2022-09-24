@@ -11,6 +11,11 @@ There are three general elements to a prompt:
   2. The scene, for e.g. "shopping for groceries" 
   3. The style, for e.g. "as a pencil drawing", or "in a photorealistic style", or "in ancient egypt". 
 
+So the full prompts would look like:
+  1. Teddy bears shopping for groceries, in ancient Egypt
+  2. Teddy bears shopping for groceries, as a pencil drawing
+  3. Teddy bears shopping for groceries, in a photorealistic style
+
 By varying the words in the prompt, you can generate an infinite amount of art. Since Dall-E 2 has been trained with an enormous amount of "words, image" pairs, we really don't know what Dall-E really knows. The best way is to try different things, and learn from what others on the internet have learned by trying. 
 ### Prompt responsibly
 The creators of Dall-E 2, OpenAI are trying hard to limit offensive language in the prompts as well as the images that are generated. However, we all need to use this powerful AI as responsibly as we can too. If you see offensive images being generated, you can flag them as such.
