@@ -1,0 +1,2 @@
+mkdocs
+mkdocs-material>=8.5.3
