@@ -21,7 +21,10 @@ By varying the words in the prompt, you can generate an infinite amount of art. 
 The creators of Dall-E 2, OpenAI are trying hard to limit offensive language in the prompts as well as the images that are generated. However, we all need to use this powerful AI as responsibly as we can too. If you see offensive images being generated, you can flag them as such.
 ## Style Hints
 Here are some styles that people have discovered: 
-  - Output styles such as : 3D render, digital art,
+  - Output styles: 
+    --3D render, digital art
+    -- artists such as claude monet, picasso, van gogh, raja ravi varma, leonardo da vinci 
+    -- painting such as mona lisa
   - emotions such as : cute, dynamic
   - color hint - such as "green desert" 
   - ... 
