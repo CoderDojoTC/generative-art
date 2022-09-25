@@ -29,8 +29,8 @@ Here are some styles that people have discovered:
   - color hint - such as "green desert" 
   - ... 
 ## Example Prompts
+There are many guides for Dall-E prompts. Here is a [good one](http://dallery.gallery/wp-content/uploads/2022/07/The-DALL%C2%B7E-2-prompt-book-v1.02.pdf).
 ## Inpainting
 Using the editor's eraser tool, you can ask Dall-E to "paint inside" the erased area using the prompt you provide. For example, say you upload a picture with your car in front of a mountain. You can erase a circular portion of the sky and prompt Dall-E to generate a moon or sun in that circle!
 ## Outpainting
 Dall-E 2 will generate a scene in a 1024x1024 frame. Sometimes you want to _extend_ a scene. You can do this using a feature called _Outpainting_. Its really simple - you add a _generation frame_ using the editor to an edge of the image and ask Dall-E to "regnerate" a new image variation based on the original. Once you accept one of the few ( generally 4 ) variations, you can repeat this step to keep painting "outwards".
-
