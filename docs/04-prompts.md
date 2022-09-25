@@ -28,4 +28,14 @@ Prompt type
 
 ## Prompts in Text to Image
 
-In 
+Prompts in most image to text systems are limited to around 20 words.  They often have to parts:
+
+1. The objects to be rendered
+2. The style of rendering.  The styles frequently reference:
+   1. An type of image (drawing, painting, photo, sketch, blueprint)
+   2. An class of art (impressionism, surrealist)
+   3. A specific painter (Van Gohh, Dali)
+   4. A specific painting (Daybreak by Maxfield Parrish)
+   5. A series of adjectives of how you want the image rendered (bright, detailed)
+
+One of the best ways to learn prompt design is to go to the stable diffusion search engine [Lexica](https://lexica.art/) and view the prompts that generate the art you are interested in.
