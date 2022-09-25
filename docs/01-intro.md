@@ -6,7 +6,7 @@ Sample Content
 
 * What is generative art?
 * Examples of generative art
-* Products that create images from descriptive text
+* Text to image [products](products/index.md) that create images from descriptive text
 * Prompt design
 * Concepts
 * Bias
