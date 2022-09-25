@@ -17,6 +17,7 @@ nav:
     - Stable Diffusion: activities/04-stable-diffusion.md
     - Crayion: activities/05-crayion.md
   - Examples:
+    - Introduction: index.md
     - Artists: examples/artists/index.md
     - Landscapes: examples/landscapes/index.md
     - Girl With Laptop: examples/girl-with-laptop/index.md
