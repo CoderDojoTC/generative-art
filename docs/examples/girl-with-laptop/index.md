@@ -23,5 +23,13 @@ A 3D render of a young girl with short curly black hair and dark skin having fun
 
 ![](./graphic-novel.png)
 
+## Patrick Nagle
+
+![](./patrick-nagel.png)
+
+## Gustav Klimpt
+
+![](./kiss-gustav-klimt.png)
+
 
 
