@@ -11,6 +11,14 @@ A girl lying down with a laptop near a pool in front of pillars with trees, a la
 
 ![](./cave-art.webp)
 
+## Blueprint
+
+![](./blueprint.png)
+
+## Stained Glass
+
+![](./stained-glass.png)
+
 ## Photorealistic
 
 A 3D render of a young girl with short curly black hair and dark skin having fun programming at a keyboard on her computer with a white background.
