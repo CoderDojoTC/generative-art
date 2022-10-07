@@ -39,5 +39,20 @@ A 3D render of a young girl with short curly black hair and dark skin having fun
 
 ![](./kiss-gustav-klimt.png)
 
+## Magritte
+
+![](./magritte.png)
+
+## Peter Paul Rubens
+
+![](./peter-paul-rubens.png)
+
+## Diego Vlzquez
+
+
+![](./diego_velzquez.png)
+
+
+
 
 
