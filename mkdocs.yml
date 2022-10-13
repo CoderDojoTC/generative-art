@@ -20,6 +20,7 @@ nav:
     - Introduction: index.md
     - Artists: examples/artists/index.md
     - Landscapes: examples/landscapes/index.md
+    - Tree Landscapes: examples/landscapes/trees.md
     - Girl With Laptop: examples/girl-with-laptop/index.md
 
   - Glossary: glossary.md
